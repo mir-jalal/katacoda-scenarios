@@ -1,0 +1,32 @@
+{
+  "title": "Home task N1",
+  "description": "Running script in the background with systemd",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1 - Create Script",
+        "text": "step1.md"
+      },
+      {
+        "title": "Step 2 - Create Service",
+        "text": "step2.md"
+      },
+      {
+        "title": "Step 3 - Additional",
+        "text": "step3.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "ubuntu:2004"
+  }
+}
