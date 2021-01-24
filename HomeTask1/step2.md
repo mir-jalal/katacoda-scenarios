@@ -10,7 +10,7 @@ Description=DevOps Service
 
 [Service]
 Type=simple
-ExecStart=/bin/bash /usr/bin/devops_script.sh
+ExecStart=/bin/bash /devops_script.sh
 
 [Install]
 WantedBy=multi-user.target
